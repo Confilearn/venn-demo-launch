@@ -1,73 +1,144 @@
-# Welcome to your Lovable project
+# Venn Demo Launch
 
-## Project info
+A modern, responsive landing page for Venn - a demo product for venn.ca. Built with React, TypeScript, and Tailwind CSS using the shadcn/ui component library.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Features
 
-## How can I edit this code?
+- **Modern Tech Stack**: React 18 + TypeScript + Vite
+- **Beautiful UI**: Built with shadcn/ui components and Tailwind CSS
+- **Responsive Design**: Mobile-first approach with responsive layouts
+- **Component Library**: Extensive collection of pre-built UI components
+- **Developer Experience**: ESLint, TypeScript, and hot reload development
+- **Testing**: Vitest with React Testing Library setup
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+### Core Technologies
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **React 18.3.1** - UI library
+- **TypeScript 5.8.3** - Type safety
+- **Vite 5.4.19** - Build tool and dev server
+- **Tailwind CSS 3.4.17** - Utility-first CSS framework
 
-Changes made via Lovable will be committed automatically to this repo.
+### UI Components
 
-**Use your preferred IDE**
+- **shadcn/ui** - Comprehensive component library
+- **Radix UI** - Accessible component primitives
+- **Lucide React** - Icon library
+- **Class Variance Authority** - Component variant management
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Additional Libraries
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **React Router DOM** - Client-side routing
+- **React Hook Form** - Form management with Zod validation
+- **TanStack Query** - Data fetching and state management
+- **Recharts** - Chart library
+- **Sonner** - Toast notifications
 
-Follow these steps:
+### Development Tools
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **ESLint** - Code linting
+- **Vitest** - Unit testing framework
+- **React Testing Library** - Component testing
+- **PostCSS** - CSS processing
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📦 Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. Clone the repository:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone <repository-url>
+cd venn-demo-launch
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+bun install
+```
+
+## 🎯 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development mode
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm run test` - Run tests
+- `npm run test:watch` - Run tests in watch mode
+
+## 🏗️ Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── Navbar.tsx      # Navigation bar
+│   ├── HeroSection.tsx # Landing hero
+│   ├── FeaturesSection.tsx # Features showcase
+│   └── Footer.tsx      # Page footer
+├── pages/              # Route pages
+│   ├── Index.tsx       # Home page
+│   └── NotFound.tsx    # 404 page
+├── main.tsx            # App entry point
+└── App.tsx             # Main app component
+```
+
+## 🎨 UI Components
+
+This project includes a comprehensive set of shadcn/ui components:
+
+- **Forms**: Input, Select, Checkbox, Radio, Switch, Slider
+- **Layout**: Card, Accordion, Tabs, Separator, ScrollArea
+- **Navigation**: Navigation Menu, Dropdown Menu, Breadcrumb
+- **Feedback**: Alert, Dialog, Toast, Progress, Skeleton
+- **Data Display**: Table, Badge, Avatar, Chart
+- **And many more...**
+
+## 🚀 Getting Started
+
+1. Start the development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+2. Open your browser and navigate to `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start building! The project includes hot reload, so changes will be reflected immediately.
 
-**Use GitHub Codespaces**
+## 🧪 Testing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Run the test suite:
 
-## What technologies are used for this project?
+```bash
+npm run test
+```
 
-This project is built with:
+Run tests in watch mode for development:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm run test:watch
+```
 
-## How can I deploy this project?
+## 📝 Code Quality
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+This project uses ESLint for code quality and consistency. Run the linter:
 
-## Can I connect a custom domain to my Lovable project?
+```bash
+npm run lint
+```
 
-Yes, you can!
+## 🌟 Deployment
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Build the application for production:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```bash
+npm run build
+```
+
+The build artifacts will be stored in the `dist/` directory, ready for deployment.
+
+Built with ❤️ using modern web technologies

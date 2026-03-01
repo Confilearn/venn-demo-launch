@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
         {/* Text */}
         <div className="flex-1 text-center lg:text-left animate-fade-up">
-          <div className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary px-4 py-1.5 text-sm text-muted-foreground mb-6">
+          <div className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary px-4 py-1.5 text-sm text-muted-foreground mt-8 mb-6">
             <Smartphone className="w-4 h-4 text-primary" />
             Now available on Android
           </div>
@@ -33,7 +33,7 @@ const HeroSection = () => {
               <svg viewBox="0 0 24 24" className="w-5 h-5" fill="currentColor">
                 <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302-2.302 2.302-2.698-2.302 2.698-2.302zM5.864 2.658L16.8 8.99l-2.302 2.302-8.635-8.635z"/>
               </svg>
-              Get it on Google Play
+              Download for Android
             </a>
             <div className="flex items-center gap-2 rounded-xl border border-border bg-secondary/50 px-6 py-4 text-sm text-muted-foreground">
               <svg viewBox="0 0 24 24" className="w-5 h-5" fill="currentColor">
